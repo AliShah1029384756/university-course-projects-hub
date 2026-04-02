@@ -72,6 +72,10 @@
     animation: pulse 2s infinite;
   }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
   .nav-cta {
     background: var(--accent2);
     color: white !important;
@@ -122,6 +126,7 @@
     background: rgba(0,212,255,0.05);
     letter-spacing: 0.08em;
     text-transform: uppercase;
+    animation: fadeDown 0.6s ease both;
   }
   .hero h1 {
     font-family: var(--font-display);
@@ -130,6 +135,7 @@
     line-height: 0.95;
     letter-spacing: -0.04em;
     margin-bottom: 1.5rem;
+    animation: fadeDown 0.6s 0.1s ease both;
   }
   .hero h1 .line2 {
     display: block;
@@ -143,12 +149,14 @@
     max-width: 560px;
     margin: 0 auto 2.5rem;
     line-height: 1.7;
+    animation: fadeDown 0.6s 0.2s ease both;
   }
   .hero-stats {
     display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;
     margin-top: 4rem;
     padding-top: 2.5rem;
     border-top: 1px solid var(--border);
+    animation: fadeDown 0.6s 0.3s ease both;
   }
   .stat { text-align: center; }
   .stat-num {
@@ -332,7 +340,7 @@
   <a href="https://alishah1029384756.github.io/AliShah1029384756/" class="nav-logo">
     <span class="dot"></span> Ali Shah
   </a>
-  <a href="https://github.com/AliShah1029384756/university-course-projects" class="nav-cta">View on GitHub</a>
+  <a href="https://alishah1029384756.github.io/AliShah1029384756/sites.html" class="nav-cta">Open Sites Directory</a>
 </nav>
 
 <div class="hero">
@@ -438,7 +446,7 @@
       <p class="section-desc">Key academic projects showcasing different technical domains and learning outcomes.</p>
     </div>
     <div class="projects-grid">
-      <a href="https://github.com/AliShah1029384756/banking-system" class="project-card">
+      <a href="projects/banking-system.html" class="project-card">
         <div class="project-domain">DATABASES</div>
         <div class="project-name">Banking System</div>
         <div class="project-desc">Full-featured banking application with account management, transactions, and database normalization.</div>
@@ -449,7 +457,7 @@
         </div>
       </a>
 
-      <a href="https://github.com/AliShah1029384756/chess-game" class="project-card">
+      <a href="projects/chess-implementation.html" class="project-card">
         <div class="project-domain">GAMES</div>
         <div class="project-name">Chess Implementation</div>
         <div class="project-desc">Complete chess game with AI opponent, move validation, and full rule implementation.</div>
@@ -460,7 +468,7 @@
         </div>
       </a>
 
-      <a href="https://github.com/AliShah1029384756/compiler-design" class="project-card">
+      <a href="projects/custom-compiler.html" class="project-card">
         <div class="project-domain">COMPILERS</div>
         <div class="project-name">Custom Language Compiler</div>
         <div class="project-desc">Complete compiler with lexical analysis, parsing, and optimization stages.</div>
@@ -471,7 +479,7 @@
         </div>
       </a>
 
-      <a href="https://github.com/AliShah1029384756/p2p-network" class="project-card">
+      <a href="projects/p2p-communication.html" class="project-card">
         <div class="project-domain">NETWORKING</div>
         <div class="project-name">P2P Communication System</div>
         <div class="project-desc">Distributed peer-to-peer network with socket programming and custom protocol.</div>
@@ -482,7 +490,7 @@
         </div>
       </a>
 
-      <a href="https://github.com/AliShah1029384756/ecommerce-platform" class="project-card">
+      <a href="projects/ecommerce-platform.html" class="project-card">
         <div class="project-domain">WEB DEVELOPMENT</div>
         <div class="project-name">E-Commerce Platform</div>
         <div class="project-desc">Full-stack e-commerce system with product catalog, cart, and order management.</div>
@@ -493,7 +501,7 @@
         </div>
       </a>
 
-      <a href="https://github.com/AliShah1029384756/snake-game-asm" class="project-card">
+      <a href="projects/snake-x86.html" class="project-card">
         <div class="project-domain">SYSTEMS</div>
         <div class="project-name">Snake Game (x86 Assembly)</div>
         <div class="project-desc">Snake game implementation in x86 assembly demonstrating low-level system programming.</div>
@@ -516,7 +524,7 @@
     </div>
     <div style="text-align: center;">
       <a href="https://github.com/AliShah1029384756/university-course-projects" class="btn-primary">
-        View All Projects on GitHub →
+        View Code Repository →
       </a>
     </div>
   </div>
