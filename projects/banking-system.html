@@ -1,43 +1,72 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 <title>Banking System | University Projects Hub</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link href='https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Instrument+Sans:wght@400;500;600&display=swap' rel='stylesheet'>
 <style>
 :root{--bg:#0a0a0f;--surface:#111118;--border:#ffffff14;--accent:#00d4ff;--text:#e8e8f0;--muted:#9aa1b5}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:'Instrument Sans',sans-serif}
-.wrap{max-width:920px;margin:0 auto;padding:3rem 1.2rem}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:2rem}
-.badge{display:inline-block;padding:.3rem .8rem;border:1px solid #00d4ff44;border-radius:999px;color:var(--accent);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
-h1{font-family:'Syne',sans-serif;font-size:clamp(2rem,5vw,3.2rem);margin:.9rem 0 .5rem}
+.wrap{max-width:980px;margin:0 auto;padding:2.5rem 1.2rem}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:1.6rem}
+.badge{display:inline-block;padding:.3rem .8rem;border:1px solid #00d4ff55;border-radius:999px;color:var(--accent);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase}
+h1{font-family:'Syne',sans-serif;font-size:clamp(1.8rem,4vw,2.8rem);margin:.9rem 0 .5rem}
 p{color:var(--muted);line-height:1.7}
-.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;margin:1rem 0 1.3rem}
-.meta div{background:#ffffff05;border:1px solid var(--border);border-radius:12px;padding:.9rem}
-.meta strong{display:block;color:#fff;font-family:'Syne',sans-serif;font-size:.85rem}
-.actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.2rem}
-a.btn{display:inline-block;padding:.7rem 1.1rem;border-radius:10px;text-decoration:none;font-weight:700}
-.btn.primary{background:var(--accent);color:#06141a}.btn.secondary{border:1px solid var(--border);color:var(--text)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.9rem;margin-top:1rem}
+.block{background:#ffffff05;border:1px solid var(--border);border-radius:12px;padding:1rem}
+.block h2{margin:0 0 .6rem;font-family:'Syne',sans-serif;font-size:1rem}
+ul{margin:.2rem 0 0 1rem;padding:0}li{margin:.35rem 0;color:#c2cada}
+.actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.1rem}
+a.btn{display:inline-block;padding:.65rem 1rem;border-radius:10px;text-decoration:none;font-weight:700}
+.btn.primary{background:var(--accent);color:#07141a}.btn.secondary{border:1px solid var(--border);color:var(--text)}
 </style>
 </head>
 <body>
-  <main class="wrap">
-    <article class="card">
-      <span class="badge">Databases</span>
-      <h1>Banking System</h1>
-      <p>Account management, transactions, and relational data modeling project.</p>
-      <section class="meta">
-        <div><strong>Domain</strong><span>Databases</span></div>
-        <div><strong>Tech Stack</strong><span>C#, Oracle DB, Entity Framework</span></div>
-      </section>
-      <div class="actions">
-        <a class="btn primary" href="https://github.com/AliShah1029384756/banking-system">View Code</a>
-        <a class="btn secondary" href="../index.html">Back to University Hub</a>
-        <a class="btn secondary" href="https://alishah1029384756.github.io/AliShah1029384756/sites.html">Sites Directory</a>
+<main class='wrap'>
+  <article class='card'>
+    <span class='badge'>Project Detail</span>
+    <h1>Banking System</h1>
+    <p>This page converts project listing into a practical reference that helps students reproduce and learn from the implementation workflow.</p>
+    <section class='grid'>
+      <div class='block'>
+        <h2>What You Learn</h2>
+        <ul>
+          <li>Entity relationships and schema design</li>
+<li>Transaction flow modeling</li>
+<li>Layered architecture in C# apps</li>
+        </ul>
       </div>
-    </article>
-  </main>
+      <div class='block'>
+        <h2>Reproducible Setup Path</h2>
+        <ul>
+          <li>Clone repository</li>
+<li>Read README prerequisites</li>
+<li>Configure database connection string</li>
+<li>Run migrations or schema scripts</li>
+<li>Launch app and verify account operations</li>
+        </ul>
+      </div>
+      <div class='block'>
+        <h2>Expected Deliverable</h2>
+        <p>Working CRUD transaction flow + validated DB schema</p>
+      </div>
+      <div class='block'>
+        <h2>Verification Checklist</h2>
+        <ul>
+          <li>README setup steps execute without missing dependencies</li>
+          <li>Core feature flow runs end-to-end</li>
+          <li>Error cases are handled without crash</li>
+        </ul>
+      </div>
+    </section>
+    <div class='actions'>
+      <a class='btn primary' href='https://github.com/AliShah1029384756/banking-system'>View Code</a>
+      <a class='btn secondary' href='../index.html'>Back to University Hub</a>
+      <a class='btn secondary' href='https://alishah1029384756.github.io/AliShah1029384756/sites.html'>Sites Directory</a>
+    </div>
+  </article>
+</main>
 </body>
 </html>
