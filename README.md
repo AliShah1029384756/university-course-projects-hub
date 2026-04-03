@@ -1,60 +1,59 @@
-# University Course Projects — Academic Portfolio
+# University Course Projects Hub
 
-A comprehensive portfolio of 16 production-ready university coursework projects spanning systems, databases, networking, compilers, and web development.
+Main gateway to a structured academic portfolio of 16 university projects across core computer science domains.
 
 ## Overview
 
-This hub showcases academic projects organized by domain with complete source code, documentation, and setup instructions. All projects are open source and demonstrate real-world application of CS fundamentals and advanced concepts.
+This hub is designed for reviewers, recruiters, and students who need a quick and organized view of coursework quality. Projects are grouped by domain, linked for deeper review, and presented in a portfolio-friendly format.
 
-## Project Domains
+## Portfolio Index
 
-- **Systems & Architecture** (3) - Low-level programming, system design, assembly
-- **Databases & ORMs** (3) - SQL, NoSQL, schema design, data modeling
-- **Web Development** (2) - Full-stack applications, MERN, Express.js
-- **Networking & P2P** (1) - Socket programming, distributed systems
-- **Compiler Design** (1) - Lexical analysis, parsing, optimization
-- **Algorithms & Data Structures** (2) - Algorithm implementation, optimization
-- **Data Science** (3) - Python, R, statistical analysis
-- **Games & Graphics** (1) - Game logic, graphics programming
-- **Other** (1) - Multi-platform development
+| Section | Focus | Outcome |
+|---|---|---|
+| Systems and OOP | Core programming and architecture fundamentals | Strong base in logic, structure, and implementation discipline |
+| Databases and Enterprise | SQL modeling and business workflows | Data-centric design and query-oriented thinking |
+| Web and Full-Stack | Application delivery with modern stacks | End-to-end feature implementation and integration |
+| Networking and Real-Time | Communication systems and distributed behavior | Protocol reasoning and concurrency awareness |
+| Compiler and Low-Level | Parsing, language tooling, low-level coding | Deeper understanding of computation internals |
+| Algorithms and Optimization | Problem-solving, scheduling, and analysis | Quantitative reasoning and optimization skills |
 
-## Stats
+## Key Facts
 
-- **16 Projects** across 9 technical domains
-- **6+ Programming Languages** - C++, C#, Python, R, SQL, JavaScript
-- **Production-Ready Code** with full documentation
-- **Open Source** - MIT License
+- 16 university projects
+- 9 technical domains
+- Multi-language implementation base (C/C++, Java, Python, JavaScript, SQL)
+- Public portfolio mapping with reproducible project references
 
 ## Quick Links
 
-- [View All Projects on GitHub](https://github.com/AliShah1029384756/university-course-projects)
-- [Back to Portfolio](https://alishah1029384756.github.io/AliShah1029384756/)
+- [Live University Hub](https://alishah1029384756.github.io/university-course-projects-hub/)
+- [University Projects Repository](https://github.com/AliShah1029384756/university-course-projects)
+- [Portfolio Home](https://alishah1029384756.github.io/AliShah1029384756/)
 
-## Getting Started
+## Featured Areas
 
-1. Visit the [live portfolio hub](https://alishah1029384756.github.io/university-course-projects-hub/)
-2. Browse projects by domain
-3. Click on any project for detailed repository information
-4. Follow the README in each project for setup and execution instructions
+- Banking and management systems
+- Compiler and systems coursework
+- Networking and communication projects
+- Web application implementations
+- Optimization and operations projects
 
-## Featured Projects
+## Usage
 
-- **Banking System** - C#, Oracle, Entity Framework
-- **Chess Implementation** - C++, Game Logic, Graphics
-- **Custom Language Compiler** - Lex, Yacc, Parser Design
-- **P2P Communication** - Socket Programming, Protocol Design
-- **E-Commerce Platform** - MERN Stack, MongoDB
-- **Snake Game (x86)** - Assembly, Low-level Programming
+1. Open the live hub.
+2. Select a project domain.
+3. Review project links and individual README files.
+4. Use the umbrella repository for full folder-level evidence.
 
-## Tags
+## License
 
-`compiler` `database` `networking` `systems` `algorithms` `fullstack` `datascience` `education` `academic`
+MIT License. See [LICENSE](LICENSE).
 
-## About
+## Contact
 
-Created as part of academic coursework at FAST-NUCES. Updated and maintained as an active learning portfolio showcasing professional development practices.
+- Maintainer: Syed Muhammad Ali Naqvi
+- GitHub: https://github.com/AliShah1029384756
+- Email: shahyed99@gmail.com
+- LinkedIn: https://linkedin.com/in/ali-naqvi-1a9576331
 
----
-
-**Author**: [Ali Shah](https://alishah1029384756.github.io/)  
-**License**: MIT | **Status**: Active Maintenance
+Last updated: April 2026
