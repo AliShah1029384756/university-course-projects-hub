@@ -1,6 +1,6 @@
 # University Course Projects — Academic Portfolio
 
-A comprehensive portfolio of 17+ production-ready university coursework projects spanning systems, databases, networking, compilers, and web development.
+A comprehensive portfolio of 16 production-ready university coursework projects spanning systems, databases, networking, compilers, and web development.
 
 ## Overview
 
@@ -20,7 +20,7 @@ This hub showcases academic projects organized by domain with complete source co
 
 ## Stats
 
-- **17+ Projects** across 9 technical domains
+- **16 Projects** across 9 technical domains
 - **6+ Programming Languages** - C++, C#, Python, R, SQL, JavaScript
 - **Production-Ready Code** with full documentation
 - **Open Source** - MIT License
